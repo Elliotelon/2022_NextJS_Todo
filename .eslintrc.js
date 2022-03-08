@@ -46,6 +46,13 @@ module.exports = {
     "@typescript-eslint/no-use-before-define": ["warn"], // 선언하기 전에 사용 한다면 경고
     "no-case-declarations": "off", // case문 안에서 변수 선언 사용하기
     "linebreak-style": 0,
+    "react/function-component-definition": [
+      2,
+      {
+        namedComponents: "arrow-function",
+        unnamedComponents: "arrow-function",
+      },
+    ],
     "react/jsx-filename-extension": [
       1,
       { extensions: [".js", ".jsx", ".tsx"] }, //jsx사용가능한 확장자 설정
