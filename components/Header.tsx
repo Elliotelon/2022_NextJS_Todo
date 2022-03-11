@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import pallete from "../styles/pallete";
+import pallete from "../styles/palette";
 
 const Container = styled.div`
   display: flex;
